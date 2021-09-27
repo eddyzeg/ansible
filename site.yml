@@ -1,0 +1,27 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install apache and php packages
+    package:
+      name:
+        - httpd
+        - php
+      state: latest
+      update_cache: yes
+    when: ansible_distribution == "CentOS"
+
+- name: second play
+  hosts: db_servers
+  become: true
+  tasks:
+
+  - name: install mariadb on dbserver
+    package:
+      name: mariadb
+      state: latest
+     
+    
+ 
