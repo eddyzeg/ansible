@@ -1,0 +1,63 @@
+Oct  8 06:27:41 server1 sshd[1888]: Accepted publickey for simone from 192.168.0.150 port 45466 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  8 06:27:41 server1 sshd[1888]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  8 06:27:42 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eukdxdobohzpidihvgdtjtmnkpxqbxpc ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633688862.23-5652-68253729119434/AnsiballZ_setup.py
+Oct  8 06:27:42 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 06:27:43 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 06:27:44 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xlbnhcvsnvhetmereaezhkdmunikcopx ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633688863.86-5666-175376688359247/AnsiballZ_stat.py
+Oct  8 06:27:44 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 06:27:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 06:27:44 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nvmeftqleatrrsfzkxcedsqcoxxqqcjd ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633688863.86-5666-175376688359247/AnsiballZ_copy.py
+Oct  8 06:27:44 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 06:27:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 06:28:13 server1 sshd[2196]: Accepted publickey for eddyz from 192.168.0.150 port 45468 ssh2: ED25519 SHA256:/gyRHWFoDEhn9p8sKMA4zKIY6t+kb3JrvhGQCOkz9TM
+Oct  8 06:28:13 server1 sshd[2196]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 06:28:44 server1 sshd[1891]: Received disconnect from 192.168.0.150 port 45466:11: disconnected by user
+Oct  8 06:28:44 server1 sshd[1891]: Disconnected from 192.168.0.150 port 45466
+Oct  8 06:28:44 server1 sshd[1888]: pam_unix(sshd:session): session closed for user simone
+Oct  8 06:30:10 server1 sshd[2199]: Received disconnect from 192.168.0.150 port 45468:11: disconnected by user
+Oct  8 06:30:10 server1 sshd[2199]: Disconnected from 192.168.0.150 port 45468
+Oct  8 06:30:11 server1 sshd[2196]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 07:40:09 server1 sshd[2351]: Connection closed by 192.168.0.150 port 45472 [preauth]
+Oct  8 07:40:59 server1 sshd[2353]: Accepted publickey for simone from 192.168.0.150 port 45478 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  8 07:40:59 server1 sshd[2353]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  8 07:41:00 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jnwhomopailjksszxmfqeskjfklhlnzn ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693259.84-6689-153964928258969/AnsiballZ_setup.py
+Oct  8 07:41:00 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:01 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:04 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-icaumioahxnnfwiklculovuwdgmtnvxw ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693264.07-6897-110909816267412/AnsiballZ_yum.py
+Oct  8 07:41:04 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:05 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:10 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qoqtgwogvzpfcmsvldlfmkrnqhrugbnm ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693270.57-7020-98728465342900/AnsiballZ_setup.py
+Oct  8 07:41:10 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:11 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:13 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gfyoezmbmzevkbdrueeretkycfykwjbg ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693273.14-7177-208686552119979/AnsiballZ_authorized_key.py
+Oct  8 07:41:13 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:13 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:15 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-meynltcjclmxusvmampfstdmcnwclyuf ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693275.07-7291-233363869648454/AnsiballZ_stat.py
+Oct  8 07:41:15 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:15 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:16 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tirhlgtzwqvcmpzmandknduaoyahpmgk ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693275.07-7291-233363869648454/AnsiballZ_file.py
+Oct  8 07:41:16 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:16 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:31 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mypvvgzpormtyowtngyeysyphhysbljo ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693291.47-7864-80630765655181/AnsiballZ_setup.py
+Oct  8 07:41:31 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:32 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:32 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ewguamkystedwhzheufomsqgljbndbhb ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693292.7-7873-92571797632536/AnsiballZ_yum.py
+Oct  8 07:41:32 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:35 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:36 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hvamalxiujffhsmkdmntrrxwazrqcazb ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693296.55-7882-168195205085347/AnsiballZ_systemd.py
+Oct  8 07:41:36 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:37 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-znuxnjazwbytexozvoxjyzrtzkgastog ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693297.79-7891-52655708315635/AnsiballZ_lineinfile.py
+Oct  8 07:41:37 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:38 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ismfsmgcbhfrllwnuoynqwsxobedwhcd ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693298.47-7900-40420513774797/AnsiballZ_stat.py
+Oct  8 07:41:38 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:41:38 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-czoxsmnaviywbjwujbjekbngarqvcdtk ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693298.47-7900-40420513774797/AnsiballZ_file.py
+Oct  8 07:41:38 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:41:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:42:29 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hbuolysqllcclhacwqpvrtyovnywapaq ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693349.0-7968-226690524442444/AnsiballZ_setup.py
+Oct  8 07:42:29 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 07:42:30 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 07:42:33 server1 sudo:  simone : TTY=pts/0 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jacjbscbshcsvuodfffqnmmyhntawsep ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693352.51-8155-168677314514982/AnsiballZ_slurp.py
+Oct  8 07:42:33 server1 sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)

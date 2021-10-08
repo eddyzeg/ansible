@@ -1,0 +1,225 @@
+Oct  7 18:35:51 eddyz gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 18:39:20 eddyz sshd[3808]: User eddyz from 192.168.0.87 not allowed because not listed in AllowUsers
+Oct  7 18:39:20 eddyz sshd[3808]: input_userauth_request: invalid user eddyz [preauth]
+Oct  7 18:39:27 eddyz unix_chkpwd[3810]: password check failed for user (eddyz)
+Oct  7 18:39:27 eddyz sshd[3808]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.87  user=eddyz
+Oct  7 18:39:28 eddyz sshd[3808]: Failed password for invalid user eddyz from 192.168.0.87 port 54483 ssh2
+Oct  7 18:39:32 eddyz sshd[3808]: Connection closed by 192.168.0.87 port 54483 [preauth]
+Oct  7 18:41:30 eddyz polkitd[683]: Registered Authentication Agent for unix-process:3856:386043 (system bus name :1.158 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  7 18:41:30 eddyz sshd[3307]: Received signal 15; terminating.
+Oct  7 18:41:30 eddyz sshd[3865]: Server listening on 0.0.0.0 port 22.
+Oct  7 18:41:30 eddyz sshd[3865]: Server listening on :: port 22.
+Oct  7 18:41:30 eddyz polkitd[683]: Unregistered Authentication Agent for unix-process:3856:386043 (system bus name :1.158, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  7 18:41:39 eddyz sshd[3878]: Accepted publickey for eddyz from 192.168.0.87 port 54493 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 18:41:39 eddyz sshd[3878]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 18:43:48 eddyz sshd[3882]: Received disconnect from 192.168.0.87 port 54493:11: disconnected by user
+Oct  7 18:43:48 eddyz sshd[3882]: Disconnected from 192.168.0.87 port 54493
+Oct  7 18:43:48 eddyz sshd[3878]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 18:44:27 eddyz sshd[3977]: Accepted publickey for eddyz from 192.168.0.87 port 64386 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 18:44:27 eddyz sshd[3977]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 18:45:48 eddyz su: pam_unix(su:session): session opened for user eddyz by eddyz(uid=0)
+Oct  7 19:03:27 eddyz sshd[4408]: Accepted publickey for simone from 192.168.0.150 port 46168 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  7 19:03:27 eddyz sshd[4408]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  7 19:03:29 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hftimehlctupkrdqfnsvnynomcxliweh ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622607.77-4403-143506833773140/AnsiballZ_setup.py
+Oct  7 19:03:29 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:31 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:33 eddyz sudo:  simone : TTY=pts/4 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vpbmodvagpozjxhqgnsyoifrujlbkvpk ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622612.27-4612-136601105965410/AnsiballZ_yum.py
+Oct  7 19:03:33 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:33 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:42 eddyz sudo:  simone : TTY=pts/5 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wqcbpexqhgtqeapjwabyzmggqdqbdumy ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622621.73-4735-219033668585663/AnsiballZ_setup.py
+Oct  7 19:03:42 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:43 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:44 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jgaizxyhgleoauututyngvbyayhywnvu ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622623.83-4893-226433472252681/AnsiballZ_authorized_key.py
+Oct  7 19:03:44 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:44 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:46 eddyz sudo:  simone : TTY=pts/5 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bvtjqpbvsgrkumobqtxcxfpiaqxbbysr ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622625.37-5006-196483901210275/AnsiballZ_stat.py
+Oct  7 19:03:46 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:46 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:47 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kjbbmrynouxntlbudwgkmebvcvdjwhnp ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622625.37-5006-196483901210275/AnsiballZ_copy.py
+Oct  7 19:03:47 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:47 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:48 eddyz sudo:  simone : TTY=pts/4 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lvefxijofvyzbgvqulouorhbpnpabeua ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622627.98-5213-130156256649799/AnsiballZ_systemd.py
+Oct  7 19:03:48 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:49 eddyz polkitd[683]: Registered Authentication Agent for unix-process:5313:519924 (system bus name :1.183 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  7 19:03:49 eddyz sshd[3865]: Received signal 15; terminating.
+Oct  7 19:03:49 eddyz sshd[5321]: Server listening on 0.0.0.0 port 22.
+Oct  7 19:03:49 eddyz sshd[5321]: Server listening on :: port 22.
+Oct  7 19:03:49 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:49 eddyz polkitd[683]: Unregistered Authentication Agent for unix-process:5313:519924 (system bus name :1.183, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  7 19:03:50 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vqksgduqxwjrrzgqelagskxrgxuurscy ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622629.67-5345-253676732292724/AnsiballZ_setup.py
+Oct  7 19:03:50 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:51 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:52 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bctbfigneuplleufkjixuazbrwzfvjkh ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622631.43-5484-128994391817603/AnsiballZ_yum.py
+Oct  7 19:03:52 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:52 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:53 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xjfmsqcmanxfhgrnncjgnmodknxarqne ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622632.78-5580-169482628274663/AnsiballZ_stat.py
+Oct  7 19:03:53 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:53 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:03:54 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oxvddiyjjivbspwccpdupjtwetnojoho ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633622632.78-5580-169482628274663/AnsiballZ_unarchive.py
+Oct  7 19:03:54 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:03:57 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:04:15 eddyz sshd[3980]: Received disconnect from 192.168.0.87 port 64386:11: disconnected by user
+Oct  7 19:04:15 eddyz sshd[3980]: Disconnected from 192.168.0.87 port 64386
+Oct  7 19:04:15 eddyz sshd[3977]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:04:57 eddyz sshd[4425]: Received disconnect from 192.168.0.150 port 46168:11: disconnected by user
+Oct  7 19:04:57 eddyz sshd[4425]: Disconnected from 192.168.0.150 port 46168
+Oct  7 19:04:57 eddyz sshd[4408]: pam_unix(sshd:session): session closed for user simone
+Oct  7 19:09:55 eddyz gdm-password]: gkr-pam: unlocked login keyring
+Oct  7 19:23:36 eddyz sshd[6229]: Accepted publickey for eddyz from 192.168.0.87 port 53908 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:23:36 eddyz sshd[6229]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:23:37 eddyz sshd[6232]: Received disconnect from 192.168.0.87 port 53908:11: disconnected by user
+Oct  7 19:23:37 eddyz sshd[6232]: Disconnected from 192.168.0.87 port 53908
+Oct  7 19:23:37 eddyz sshd[6229]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:23:49 eddyz sshd[6258]: Accepted publickey for eddyz from 192.168.0.87 port 53910 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:23:49 eddyz sshd[6258]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:24:28 eddyz sshd[6332]: Accepted publickey for simone from 192.168.0.150 port 46420 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  7 19:24:28 eddyz sshd[6332]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  7 19:26:10 eddyz sshd[6344]: Received disconnect from 192.168.0.150 port 46420:11: disconnected by user
+Oct  7 19:26:10 eddyz sshd[6344]: Disconnected from 192.168.0.150 port 46420
+Oct  7 19:26:10 eddyz sshd[6332]: pam_unix(sshd:session): session closed for user simone
+Oct  7 19:26:30 eddyz sshd[6754]: Accepted publickey for simone from 192.168.0.150 port 46646 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  7 19:26:30 eddyz sshd[6754]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  7 19:26:32 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dxwoefomenldctfgenuekwlsraylfqfv ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633623990.91-6752-61650455364544/AnsiballZ_setup.py
+Oct  7 19:26:32 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:26:34 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:26:35 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-auswuwlpckmcbtaabpftxfajhpakhmeu ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633623995.18-6932-277983614959203/AnsiballZ_yum.py
+Oct  7 19:26:35 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  7 19:26:45 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:27:15 eddyz sudo:   eddyz : TTY=pts/1 ; PWD=/home/eddyz/ansible ; USER=root ; COMMAND=/bin/yum install vim
+Oct  7 19:27:15 eddyz sudo: pam_unix(sudo:session): session opened for user root by eddyz(uid=0)
+Oct  7 19:27:17 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  7 19:27:45 eddyz sshd[6764]: Received disconnect from 192.168.0.150 port 46646:11: disconnected by user
+Oct  7 19:27:45 eddyz sshd[6764]: Disconnected from 192.168.0.150 port 46646
+Oct  7 19:27:45 eddyz sshd[6754]: pam_unix(sshd:session): session closed for user simone
+Oct  7 19:29:27 eddyz sshd[6261]: Received disconnect from 192.168.0.87 port 53910:11: disconnected by user
+Oct  7 19:29:27 eddyz sshd[6261]: Disconnected from 192.168.0.87 port 53910
+Oct  7 19:29:27 eddyz sshd[6258]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:29:41 eddyz sshd[7174]: Accepted publickey for eddyz from 192.168.0.87 port 57309 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:29:42 eddyz sshd[7174]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:30:25 eddyz sshd[7177]: Received disconnect from 192.168.0.87 port 57309:11: disconnected by user
+Oct  7 19:30:25 eddyz sshd[7177]: Disconnected from 192.168.0.87 port 57309
+Oct  7 19:30:25 eddyz sshd[7174]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:30:35 eddyz sshd[7263]: Invalid user EduardGabrielZ1 from 192.168.0.87 port 57316
+Oct  7 19:30:35 eddyz sshd[7263]: input_userauth_request: invalid user EduardGabrielZ1 [preauth]
+Oct  7 19:30:44 eddyz sshd[7263]: Failed none for invalid user EduardGabrielZ1 from 192.168.0.87 port 57316 ssh2
+Oct  7 19:30:48 eddyz sshd[7263]: pam_unix(sshd:auth): check pass; user unknown
+Oct  7 19:30:48 eddyz sshd[7263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.87
+Oct  7 19:30:50 eddyz sshd[7263]: Failed password for invalid user EduardGabrielZ1 from 192.168.0.87 port 57316 ssh2
+Oct  7 19:30:53 eddyz sshd[7263]: Connection closed by 192.168.0.87 port 57316 [preauth]
+Oct  7 19:30:57 eddyz sshd[7265]: Accepted publickey for eddyz from 192.168.0.87 port 57318 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:30:57 eddyz sshd[7265]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:31:30 eddyz sshd[7268]: Received disconnect from 192.168.0.87 port 57318:11: disconnected by user
+Oct  7 19:31:30 eddyz sshd[7268]: Disconnected from 192.168.0.87 port 57318
+Oct  7 19:31:30 eddyz sshd[7265]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:33:59 eddyz sshd[7347]: Accepted publickey for eddyz from 192.168.0.87 port 56222 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:33:59 eddyz sshd[7347]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:33:59 eddyz sshd[7350]: Received disconnect from 192.168.0.87 port 56222:11: disconnected by user
+Oct  7 19:33:59 eddyz sshd[7350]: Disconnected from 192.168.0.87 port 56222
+Oct  7 19:33:59 eddyz sshd[7347]: pam_unix(sshd:session): session closed for user eddyz
+Oct  7 19:35:31 eddyz sshd[7392]: Accepted publickey for eddyz from 192.168.0.87 port 59655 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  7 19:35:31 eddyz sshd[7392]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  7 19:35:40 eddyz sshd[7395]: Received disconnect from 192.168.0.87 port 59655:11: disconnected by user
+Oct  7 19:35:40 eddyz sshd[7395]: Disconnected from 192.168.0.87 port 59655
+Oct  7 19:35:40 eddyz sshd[7392]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 10:04:10 eddyz polkitd[715]: Loading rules from directory /etc/polkit-1/rules.d
+Oct  8 10:04:10 eddyz polkitd[715]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct  8 10:04:10 eddyz polkitd[715]: Finished loading, compiling and executing 10 rules
+Oct  8 10:04:10 eddyz polkitd[715]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct  8 10:04:17 eddyz sshd[1124]: Server listening on 0.0.0.0 port 22.
+Oct  8 10:04:17 eddyz sshd[1124]: Server listening on :: port 22.
+Oct  8 10:04:26 eddyz gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct  8 10:04:35 eddyz polkitd[715]: Registered Authentication Agent for unix-session:c1 (system bus name :1.33 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  8 10:05:05 eddyz gdm-password]: pam_unix(gdm-password:session): session opened for user eddyz by (uid=0)
+Oct  8 10:05:08 eddyz gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct  8 10:05:08 eddyz polkitd[715]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.33, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct  8 10:05:11 eddyz polkitd[715]: Registered Authentication Agent for unix-session:1 (system bus name :1.64 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  8 10:06:29 eddyz sshd[2752]: Accepted publickey for eddyz from 192.168.0.87 port 61430 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 10:06:29 eddyz sshd[2752]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 10:31:47 eddyz sshd[2755]: Received disconnect from 192.168.0.87 port 61430:11: disconnected by user
+Oct  8 10:31:47 eddyz sshd[2755]: Disconnected from 192.168.0.87 port 61430
+Oct  8 10:31:47 eddyz sshd[2752]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 10:32:35 eddyz sshd[3101]: Accepted publickey for eddyz from 192.168.0.87 port 62688 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 10:32:35 eddyz sshd[3101]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 10:32:36 eddyz sshd[3104]: Received disconnect from 192.168.0.87 port 62688:11: disconnected by user
+Oct  8 10:32:36 eddyz sshd[3104]: Disconnected from 192.168.0.87 port 62688
+Oct  8 10:32:36 eddyz sshd[3101]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 10:32:43 eddyz sshd[3130]: Accepted publickey for eddyz from 192.168.0.87 port 62690 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 10:32:43 eddyz sshd[3130]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 10:36:20 eddyz sshd[3310]: Accepted publickey for simone from 192.168.0.150 port 34814 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  8 10:36:21 eddyz sshd[3310]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  8 10:37:26 eddyz sshd[3324]: Received disconnect from 192.168.0.150 port 34814:11: disconnected by user
+Oct  8 10:37:26 eddyz sshd[3324]: Disconnected from 192.168.0.150 port 34814
+Oct  8 10:37:26 eddyz sshd[3310]: pam_unix(sshd:session): session closed for user simone
+Oct  8 11:13:06 eddyz sshd[3133]: Received disconnect from 192.168.0.87 port 62690:11: disconnected by user
+Oct  8 11:13:06 eddyz sshd[3133]: Disconnected from 192.168.0.87 port 62690
+Oct  8 11:13:06 eddyz sshd[3130]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 11:20:42 eddyz sshd[4087]: Accepted publickey for eddyz from 192.168.0.87 port 55042 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 11:20:42 eddyz sshd[4087]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 13:25:26 eddyz sshd[4090]: Received disconnect from 192.168.0.87 port 55042:11: disconnected by user
+Oct  8 13:25:26 eddyz sshd[4090]: Disconnected from 192.168.0.87 port 55042
+Oct  8 13:25:26 eddyz sshd[4087]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 13:26:42 eddyz sshd[5517]: Accepted publickey for eddyz from 192.168.0.87 port 53180 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 13:26:43 eddyz sshd[5517]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 13:26:43 eddyz sshd[5520]: Received disconnect from 192.168.0.87 port 53180:11: disconnected by user
+Oct  8 13:26:43 eddyz sshd[5520]: Disconnected from 192.168.0.87 port 53180
+Oct  8 13:26:43 eddyz sshd[5517]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 13:26:51 eddyz sshd[5546]: Accepted publickey for eddyz from 192.168.0.87 port 53182 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 13:26:51 eddyz sshd[5546]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 13:26:51 eddyz sshd[5549]: Received disconnect from 192.168.0.87 port 53182:11: disconnected by user
+Oct  8 13:26:51 eddyz sshd[5549]: Disconnected from 192.168.0.87 port 53182
+Oct  8 13:26:51 eddyz sshd[5546]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 13:27:07 eddyz sshd[5575]: Accepted publickey for eddyz from 192.168.0.87 port 53187 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 13:27:07 eddyz sshd[5575]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 13:31:19 eddyz sshd[5579]: Received disconnect from 192.168.0.87 port 53187:11: disconnected by user
+Oct  8 13:31:19 eddyz sshd[5579]: Disconnected from 192.168.0.87 port 53187
+Oct  8 13:31:19 eddyz sshd[5575]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 13:51:40 eddyz sshd[5945]: Accepted publickey for eddyz from 192.168.0.87 port 53008 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 13:51:41 eddyz sshd[5945]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 14:39:00 eddyz sshd[5948]: Received disconnect from 192.168.0.87 port 53008:11: disconnected by user
+Oct  8 14:39:00 eddyz sshd[5948]: Disconnected from 192.168.0.87 port 53008
+Oct  8 14:39:00 eddyz sshd[5945]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 14:39:33 eddyz sshd[6546]: Accepted publickey for eddyz from 192.168.0.87 port 53764 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 14:39:33 eddyz sshd[6546]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 14:39:33 eddyz sshd[6549]: Received disconnect from 192.168.0.87 port 53764:11: disconnected by user
+Oct  8 14:39:33 eddyz sshd[6549]: Disconnected from 192.168.0.87 port 53764
+Oct  8 14:39:33 eddyz sshd[6546]: pam_unix(sshd:session): session closed for user eddyz
+Oct  8 14:39:39 eddyz sshd[6575]: Accepted publickey for eddyz from 192.168.0.87 port 53765 ssh2: RSA SHA256:eeT2vjFEm62I0xjDrmigpmqzYU0MxWKeBzwCBWMApS8
+Oct  8 14:39:39 eddyz sshd[6575]: pam_unix(sshd:session): session opened for user eddyz by (uid=0)
+Oct  8 14:40:09 eddyz sshd[6665]: Connection closed by 192.168.0.150 port 34840 [preauth]
+Oct  8 14:40:59 eddyz sshd[6694]: Accepted publickey for simone from 192.168.0.150 port 34846 ssh2: ED25519 SHA256:dVX07mJ6R53+MJd22JCoiOz/QAQ37H9CTFTdyicwTuk
+Oct  8 14:41:00 eddyz sshd[6694]: pam_unix(sshd:session): session opened for user simone by (uid=0)
+Oct  8 14:41:02 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yykzqcuiexejqkteqpttxmwnokzbidyz ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693260.61-6690-128829154609135/AnsiballZ_setup.py
+Oct  8 14:41:02 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:03 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:05 eddyz sudo:  simone : TTY=pts/3 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ldktknfdmbwktrkynlxkaigdwdawrlxq ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693264.34-6898-236487096956161/AnsiballZ_yum.py
+Oct  8 14:41:05 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:06 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:11 eddyz sudo:  simone : TTY=pts/1 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-etjjfswwrqmoljglohzzexqyesuvssqw ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693270.82-7022-271862735298158/AnsiballZ_setup.py
+Oct  8 14:41:11 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:12 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:14 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-acevjnvqhnatodzhjcjizixkvcijxnca ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693273.45-7178-6689457956818/AnsiballZ_authorized_key.py
+Oct  8 14:41:14 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:14 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:16 eddyz sudo:  simone : TTY=pts/4 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nillisfakirywgjowtrlroxhgmqvpkyn ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693275.39-7292-106816856274684/AnsiballZ_stat.py
+Oct  8 14:41:16 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:16 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:18 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yqrdkyzgnezbvgthzrhiplktanycwtnr ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693275.39-7292-106816856274684/AnsiballZ_file.py
+Oct  8 14:41:18 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:18 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:20 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qghcrpkpsgpykftqxvekgqfrousnqfzl ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693279.17-7467-9247346621886/AnsiballZ_setup.py
+Oct  8 14:41:20 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:21 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:22 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tjwokcpmjgifdpqkjgllpvrswbpsfrci ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693281.66-7614-51023309496822/AnsiballZ_yum.py
+Oct  8 14:41:22 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:23 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:25 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-shiwcjhvpssvevldfzhulyzaartrzkzt ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693283.91-7710-166863715890741/AnsiballZ_stat.py
+Oct  8 14:41:25 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:25 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:41:26 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hpapwjdfnpvnpwrnyccgmsviugaovnvn ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693283.91-7710-166863715890741/AnsiballZ_unarchive.py
+Oct  8 14:41:26 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:41:31 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:42:31 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dbiqdjdmowoathnrsgrcogndsgahkdwl ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693349.32-7969-233348499669297/AnsiballZ_setup.py
+Oct  8 14:42:31 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
+Oct  8 14:42:32 eddyz sudo: pam_unix(sudo:session): session closed for user root
+Oct  8 14:42:34 eddyz sudo:  simone : TTY=pts/2 ; PWD=/home/simone ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gxotppzgqarpgkhtwxayqgyazojowkzm ; /usr/bin/python /home/simone/.ansible/tmp/ansible-tmp-1633693352.88-8156-83524638310022/AnsiballZ_slurp.py
+Oct  8 14:42:34 eddyz sudo: pam_unix(sudo:session): session opened for user root by simone(uid=0)
