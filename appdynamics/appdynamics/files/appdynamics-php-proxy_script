@@ -1,0 +1,23 @@
+#!/bin/bash
+ 
+source /etc/sysconfig/appdynamics-php-proxy
+ 
+if [ ! -d "$PROXY_COMMUNICATION_DIR" ]; then
+mkdir -p $PROXY_COMMUNICATION_DIR
+else
+rm -Rf $PROXY_COMMUNICATION_DIR/*
+fi
+ 
+chmod -R 755 $PROXY_COMMUNICATION_DIR
+ 
+if [ ! -d "$LOG_DIRECTORY" ]; then
+mkdir -p $LOG_DIRECTORY
+fi
+ 
+VERBOSE=""
+ 
+if [ "$DEBUG" == "yes" ]; then
+VERBOSE="-v"
+fi
+ 
+/usr/lib/appdynamics-php-agent/proxy/runProxy $VERBOSE --max-perm-size=$MAX_PERM_SIZE --max-heap-size=$MAX_HEAP_SIZE --min-heap-size=$MIN_HEAP_SIZE $PROXY_COMMUNICATION_DIR $LOG_DIRECTORY $JVM_OPTIONS

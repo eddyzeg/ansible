@@ -1,0 +1,14 @@
+app:
+  tier_name: ConfigService                                      
+  node_name: {{ ansible_fqdn }}       # ansible facts
+  
+platform:
+  hostname: verifone-test.saas.appdynamics.com     
+  app_name: 2CO-EMEA                                   
+  account_name: verifone                                        # needs to be in secrets
+  account_accesskey: 230c8b83-4454-4806-916a-0089e2117446       # needs to be in secrets
+  autoproxy: 0                                            # V-Think we need to use proxy
+  proxyhost: nl1pdvi900web01.idv.vcs.prod                 
+  proxyport: 8080
+  proxyuser: appd-proxy-user                                  # needs to be in secrets            
+  proxypassword: /path/to/the/file/with/the/password          # needs to be in secrets

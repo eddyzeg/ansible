@@ -1,0 +1,21 @@
+[AppDynamics Agent]
+extension = appdynamics_agent.so
+agent.log4cxx_config = /usr/lib/appdynamics-php-agent/php/conf/appdynamics_agent_log4cxx.xml
+agent.php_agent_root = /usr/lib/appdynamics-php-agent
+agent.controller.hostName = {{platform.hostname}}     
+agent.controller.port = 443
+agent.controller.ssl.enabled = 1
+agent.applicationName = {{platform.app_name}}                                     
+agent.tierName = {{app.tier_name}}                                      
+agent.nodeName = {{app.node_name}}                       
+agent.accountName = {{platform.account_name}}                                        
+agent.accountAccessKey = {{platform.account_accesskey}}       
+agent.cli_enabled = On
+agent.cli_long_running = 0
+agent.proxy_ctrl_dir = /var/appdynamics-php-proxy/proxy.communication
+agent.auto_launch_proxy = {{platform.autoproxy}}                                           
+agent.proxy_script = /usr/lib/appdynamics-php-agent/proxy/runProxy
+agent.http.proxyHost = {{platform.proxyhost}}                    
+agent.http.proxyPort = {{platform.proxyport}}                                           
+agent.http.proxyUser = {{platform.proxyuser}}                                            
+agent.http.proxyPasswordFile = {{platform.proxypassword}}      

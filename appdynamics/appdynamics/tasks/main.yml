@@ -1,0 +1,48 @@
+---
+- name: install appd-php-agent
+  yum:
+    name: /files/appdynamics-php-agent.x86_64-21.12.1.404.rpm
+    state: present
+
+- name: update appd config file
+  template: 
+    src: appd/appdynamics_agent.ini.j2
+    dest: /etc/php.d/appdynamics_agent.ini
+    owner: root
+    group: root
+    mode: 0644
+  notify: reload httpd
+
+- name: upload systemd file
+  template:
+    src: appd/appdynamics-php-proxy.j2
+    dest: /etc/sysconfig/appdynamics-php-proxy
+    owner: root
+    group: root
+    mode: 0644 
+
+- name: upload sbin file
+  copy:
+    src: /files/appdynamics-php-proxy_script
+    dest: /usr/sbin/appdynamics-php-proxy
+    owner: root
+    group: root
+    mode: 0755
+
+- name: upload unit file
+  copy:
+    src: /files/appdynamics-php-proxy.service
+    dest: /usr/lib/systemd/system/appdynamics-php-proxy.service
+    owner: root
+    group: root
+    mode: 0644
+
+- name: Setup unit to start at boot and start it
+  ansible.builtin.systemd:
+    daemon_reload: yes
+    name: appdynamics-php-proxy
+    state: started
+    state: enabled
+  notify: reload httpd
+
+    

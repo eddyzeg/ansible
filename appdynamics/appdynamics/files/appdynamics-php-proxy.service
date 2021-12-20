@@ -1,0 +1,12 @@
+[Unit]
+Description=AppDynamics PHP Proxy for Agents
+Before=httpd.service
+ 
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/sbin/appdynamics-php-proxy
+ 
+[Install]
+WantedBy=multi-user.target
